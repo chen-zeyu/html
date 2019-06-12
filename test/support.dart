@@ -5,9 +5,9 @@ import 'dart:collection';
 import 'dart:io';
 
 import 'package:path/path.dart' as p;
-import 'package:html/src/treebuilder.dart';
-import 'package:html/dom.dart';
-import 'package:html/dom_parsing.dart';
+import 'package:html_plus/src/treebuilder.dart';
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/dom_parsing.dart';
 
 typedef TreeBuilderFactory = TreeBuilder Function(bool namespaceHTMLElements);
 

@@ -1,9 +1,9 @@
-name: html
+name: html_plus
 version: 0.14.0+1
 
 description: APIs for parsing and manipulating HTML content outside the browser.
-author: Dart Team <misc@dartlang.org>
-homepage: https://github.com/dart-lang/html
+author: Armin <polazeyu@gmail.com>
+homepage: https://github.com/chen-zeyu/html
 
 environment:
   sdk: '>=2.0.0 <3.0.0'

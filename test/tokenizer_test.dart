@@ -7,8 +7,8 @@ import 'dart:io';
 import 'dart:mirrors';
 import 'package:path/path.dart' as pathos;
 import 'package:test/test.dart';
-import 'package:html/src/token.dart';
-import 'package:html/src/tokenizer.dart';
+import 'package:html_plus/src/token.dart';
+import 'package:html_plus/src/tokenizer.dart';
 import 'support.dart';
 
 class TokenizerTestParser {

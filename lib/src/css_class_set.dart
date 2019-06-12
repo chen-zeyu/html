@@ -7,7 +7,7 @@ library html.dom.src;
 
 import 'dart:collection';
 
-import 'package:html/dom.dart';
+import 'package:html_plus/dom.dart';
 
 class ElementCssClassSet extends _CssClassSetImpl {
   final Element _element;

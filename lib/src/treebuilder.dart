@@ -2,8 +2,8 @@
 library treebuilder;
 
 import 'dart:collection';
-import 'package:html/dom.dart';
-import 'package:html/parser.dart' show getElementNameTuple;
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/parser.dart' show getElementNameTuple;
 import 'package:source_span/source_span.dart';
 import 'constants.dart';
 import 'list_proxy.dart';

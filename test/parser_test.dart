@@ -3,8 +3,8 @@ library parser_test;
 
 import 'dart:convert';
 
-import 'package:html/dom.dart';
-import 'package:html/parser.dart';
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/parser.dart';
 import 'package:path/path.dart' as pathos;
 import 'package:test/test.dart';
 

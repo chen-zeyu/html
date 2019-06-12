@@ -1,11 +1,11 @@
 /// Additional feature tests that aren't based on test data.
 library parser_feature_test;
 
-import 'package:html/dom.dart';
-import 'package:html/parser.dart';
-import 'package:html/src/constants.dart';
-import 'package:html/src/encoding_parser.dart';
-import 'package:html/src/treebuilder.dart';
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/parser.dart';
+import 'package:html_plus/src/constants.dart';
+import 'package:html_plus/src/encoding_parser.dart';
+import 'package:html_plus/src/treebuilder.dart';
 import 'package:source_span/source_span.dart';
 import 'package:test/test.dart';
 

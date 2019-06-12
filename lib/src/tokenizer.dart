@@ -1,7 +1,7 @@
 library tokenizer;
 
 import 'dart:collection';
-import 'package:html/parser.dart' show HtmlParser;
+import 'package:html_plus/parser.dart' show HtmlParser;
 import 'constants.dart';
 import 'html_input_stream.dart';
 import 'token.dart';

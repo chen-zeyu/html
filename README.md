@@ -2,13 +2,18 @@ This is a pure Dart HTML5 parser.
 It's a port of [html5lib](https://github.com/html5lib/html5lib-python) from 
 Python. 
 
+# Notice
+**This is a fork of `html` that supports more selectors and fixes some bugs.**
+
+**This module was created because the `html` project handles the pull request very slowly.**
+
 # Usage
 
 Parsing HTML is easy!
 
 ```dart
-import 'package:html/parser.dart' show parse;
-import 'package:html/dom.dart';
+import 'package:html_plus/parser.dart' show parse;
+import 'package:html_plus/dom.dart';
 
 main() {
   var document = parse(

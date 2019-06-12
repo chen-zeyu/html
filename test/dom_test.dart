@@ -2,8 +2,8 @@
 library dom_test;
 
 import 'package:test/test.dart';
-import 'package:html/dom.dart';
-import 'package:html/parser.dart';
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/parser.dart';
 
 main() {
   group('Element', () {

@@ -9,7 +9,7 @@
 /// from upstream.
 library html.test.selectors.level1_lib;
 
-import 'package:html/dom.dart';
+import 'package:html_plus/dom.dart';
 import 'package:test/test.dart' as unittest;
 
 Document doc;

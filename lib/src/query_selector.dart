@@ -4,8 +4,8 @@ library html.src.query;
 import 'package:csslib/parser.dart' as css;
 import 'package:csslib/parser.dart' show TokenKind, Message;
 import 'package:csslib/visitor.dart'; // the CSSOM
-import 'package:html/dom.dart';
-import 'package:html/src/constants.dart' show isWhitespaceCC;
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/src/constants.dart' show isWhitespaceCC;
 
 bool matches(Node node, String selector) =>
     SelectorEvaluator().matches(node, _parseSelectorList(selector));

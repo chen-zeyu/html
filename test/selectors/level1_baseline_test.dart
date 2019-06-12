@@ -8,8 +8,8 @@
 library html.test.selectors.level1_baseline_test;
 
 import 'dart:io';
-import 'package:html/dom.dart';
-import 'package:html/parser.dart';
+import 'package:html_plus/dom.dart';
+import 'package:html_plus/parser.dart';
 import 'package:path/path.dart' as p;
 import 'package:test/test.dart';
 
